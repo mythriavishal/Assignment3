@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day3SemanticTAg</title>
+    </head>
+    <body>
+        <header>
+            <h1 align="right"><a href="#Contact">Contact Us</a></h1>
+            <h1>India's Most Visited Places</h1>
+            <ul>
+                <li><a href="#Chennai">Chennai</a></li>
+                <li><a href="#Mumbai">Mumbai</a></li>
+                <li><a href="#Delhi">Delhi</a></li>
+            </ul>
+        </header>
+        <h1>HTML nav tag</h1>
+        <nav>
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiR4oSUpNuRAxUrnmMGHZotNmoQPAgJ"><span style="color:blue;background-color: whitesmoke;">Google</span></a><br>
+            <a href="https://www.yahoo.com/?guccountr=1&guce_referrer=aHR0cHM6Ly93d3cuYmluZy5jb20v&guce_referrer_sig=AQAAADQANQg65AZc3H6VzJPHfNoYqbe-tRLeQzRMF0Dmqwc5vqZs1UgJ8Dcyof5CnjsY9kPPHQ6J_1mYtGaUk2hV26cCZYNag7lMOY47xqNz6XOMHBeBFcgS8lbEJ90q9IUe7Mk6fjRb8znDGGbCX9QNZGQ_BY7VHcwnZxR3-tSL9fK6"><span style="color:purple;background-color: whitesmoke;"></span>Yahoo</a>
+            <a href="https://www.amazon.in/"><span style="color:black">amazon</span></a>
+        </nav>
+        <main>
+            <hr>
+            <article id="Chennai" style="background-color: yellow;">
+                <h2>Q1</h2>
+                <section>
+                    <h3>About semantic tag and its importance in seo and accessibility</h3>
+                    <p>Semantic tags are HTML elements that explain what the content means<br>semantic tags describe the role of the content clearly for browsers, search engines<br>Semantic tags are very important for SEO because search engines rely on page structure to understand content.<br></p>
+                </section>
+            </article>
+            <article id="Mumbai">
+                <h2>Q1</h2>
+                <section>
+                    <h3>Semantic vs Non semantic tags</h3>
+                    <p>Semantic tags should be used whenever the content has a clear purpose.<br>
+                    Non-semantic tags are useful for styling or layout</p>
+                </section>
+            </article>
+            <article id="Delhi">
+                <h2>Q3</h2>
+                <section>
+                    <h3>Sectioning content vs standalone content</h3>
+                    <p>Sectioning elements divide the page into logical sections and create headings in the document outline.<br>
+                    Sectioning elements divide the page into logical sections and create headings in the document outline.</p>
+                </section>
+            </article>
+            <article id="Contact">
+                <h2>Contact Me 9361764422</h2>
+            </article>
+            <form action="" method="post">
+                <p><label for="fname">First Name :</label><input type="text" id="fname" name="fname"></p>
+                <p><label for="pwd">Password :</label>
+                <input type="password" id="pwd" pwd="pwd" required></p>
+                <p>
+                    <label for="phoneno">Phone Number:</label>
+                    <input type="tel" id="phoneno" name="phoneno" placeholder="+91 1234567890" required>
+                </p>
+                <p>
+                    <label for="emailid">Email ID:</label>
+                    <input type="email" id="emailid" name="emailid" max="@" required>
+                </p>
+                <p>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="60" step="" required>
+                </p>
+                <p>
+                    <label for="city">CITY</label>
+
+                    <select name="city" id="city" multiple>
+                        <optgroup label="tamil nadu">
+                            <option value="chennai">Chennai</option>
+                            <option value="coimbatore">Coimbatore</option>
+                        </optgroup>
+                        <optgroup label="kerala">
+                            <option label="varkala">Varkala</option>
+                            <option label="trivandrum">Trivandrum</option>
+                            <option label="wayanad">Wayanad</option>
+                            <option label="calicut">Calicut</option>
+                            <option label="manjumel">Manjumel</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                <label for="Qual">Qualification</label>
+                <input type="text" name="Qual" id="Qual" List="Qual-List">
+                <datalist id="Qual-List">
+                    <option value="BE"></option>
+                    <option value="ME"></option>
+                    <option value="B.Sc"></option>
+                </datalist>
+                </p>
+                <br>
+                <p>
+                    <fieldset>
+                        <legend>YOUR FAV GAME</legend>
+                        <label for="Cricket">Cricket</label>
+                        <input type="checkbox" name="games" id="Cricket" value="Cricket">
+                        <label for="Basketball">Basketball</label>
+                        <input type="checkbox" name="games" id="Basketball" value="Basketball">
+                    </fieldset>
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>YOUR GENDER</legend>
+                        <label for="Male">Male</label>
+                        <input type="radio" name="gender" id="Male" value="Male">
+                        <label fot="Female">Female</label>
+                        <input type="radio" name="gender" id="Female" value="Female">
+                        
+                    </fieldset>
+                </p>
+                <center>
+                    <button type="button" onclick="alert('Hello tourist')">CLICK FOR GREETINGS</button>
+                    <button type="submit">Submit</button>
+                </center>
+            </form>
+            <figure>
+                <img src="sunsetimage.webp" alt="sunset_image">
+                <figcaption>Fig.1-Sunset over the ocean</figcaption>
+            </figure>
+            <p>I visited burj khalifa</p>
+            <aside>burj khalifa is the tallest building in the world</aside>
+            <details>its in dubai</details>
+        </main>
+        <footer>
+            <p><a href="aboutus.html">About us</a></p>
+            <a href="#">Back on top</a>
+            <br><br>
+            Copyright &copy; 2025,           ||All Right Reserved
+        </footer>
+    </body>
+</html>
